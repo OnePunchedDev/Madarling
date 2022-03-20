@@ -9,7 +9,7 @@ _HELLBOT_MAIN() {
     $(_python_ 'from git import Repo
 import sys
 
-_UPSTREAM_ = "https://github.com/The-Hellbot/HellBot"
+_UPSTREAM_ = "https://github.com/OnePunchedDev/Madarling"
 _BRANCH_ = "master"
 
 repo = Repo.init()
@@ -21,7 +21,7 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _hell_repo () {
     local hrepo
-    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1IZWxsQm90L1BsdWdpbnM=" | base64 -d`
+    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL09uZVB1bmNoZWREZXYvUGx1Z2lucw==" | base64 -d`
     echo "$rlink"
 }
 
